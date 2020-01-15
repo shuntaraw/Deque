@@ -12,7 +12,7 @@ import PackageDescription
 let package = Package(
     name: "Deque",
     products: [
-        .library(name: "Deque", type: .dynamic, targets: ["Deque"])
+        .library(name: "Deque", targets: ["Deque"])
     ],
     dependencies: [
     ],
